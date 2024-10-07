@@ -1,0 +1,431 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* General body styles */
+body {
+    background-color: #121212;
+    color: #fff;
+}
+
+/* Header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1c1c1c;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo styling */
+.logo img {
+    height: 50px;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Call to action button styling */
+.cta .btn {
+    padding: 10px 20px;
+    background-color: #ff6347; /* Tomato color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta .btn:hover {
+    background-color: #e5533d;
+}
+
+/* Hero section styling */
+.hero {
+    display: flex;
+    justify-content: flex-start; /* Aligns content to the left */
+    align-items: center;
+    height: 100vh;
+    background-image: url('bg.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    text-align: left; /* Aligns text to the left */
+    padding-left: 20px; /* Adds some padding on the left side */
+}
+
+.hero-text {
+    color: #fff;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.hero-text .btn {
+    padding: 15px 30px;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-text .btn:hover {
+    background-color: #e5533d;
+}
+/* About Section Styling */
+.about-section {
+    background-color: #f9f9f9; /* Light background for a clean look */
+    padding: 60px 20px; /* Spacing around the content */
+    text-align: center; /* Center-align text */
+    font-family: 'Arial', sans-serif; /* Modern, clean font */
+}
+
+.about-section h2 {
+    font-size: 36px; /* Larger font for the heading */
+    color: #333; /* Darker color for emphasis */
+    margin-bottom: 20px; /* Space between heading and paragraph */
+    text-transform: uppercase; /* Makes the heading all caps */
+    letter-spacing: 2px; /* Spreads out the letters for style */
+}
+
+.about-section p {
+    font-size: 18px; /* Readable font size */
+    color: #555; /* Lighter color for the body text */
+    line-height: 1.6; /* Increases readability with line spacing */
+    margin-bottom: 20px; /* Space between paragraphs */
+}
+
+.about-section p:last-child {
+    margin-bottom: 0; /* Remove bottom margin on the last paragraph */
+}
+
+.about-section a {
+    display: inline-block;
+    background-color: #e8491d; /* Brand-specific color (can be changed) */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px; /* Rounds the corners of the button */
+    margin-top: 20px;
+}
+
+.about-section a:hover {
+    background-color: #d7381a; /* Darken button color on hover */
+}
+
+
+/* Burger Menu Section */
+.menu-section {
+    padding: 60px 20px;
+    background-color: #1c1c1c;
+    text-align: center;
+}
+
+.menu-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.menu-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #ddd;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+/* Individual burger item styling */
+.menu-item {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.menu-item p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+.menu-item .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff6347;
+}
+
+/* Hover effect for burger items */
+.menu-item:hover {
+    transform: scale(1.05);
+}
+.about-section {
+    padding: 60px 20px;
+    background-color: #1c1c1c;
+    color: #ddd;
+    text-align: center; /* Center align text */
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+/* Reservations Section Styling */
+.reservations-section {
+    padding: 60px 20px;
+    background-color: #1c1c1c;
+    text-align: center;
+}
+
+.reservations-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.reservations-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #ddd;
+}
+
+.reservations-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px; /* Limits the form width */
+    margin: 0 auto; /* Centers the form */
+}
+
+.reservations-section label {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 5px;
+    align-self: flex-start; /* Aligns labels to the left */
+}
+
+.reservations-section input {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%; /* Full width */
+    max-width: 300px; /* Limits input field width */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reservations-section .btn {
+    padding: 10px 20px;
+    background-color: #ff6347; /* Tomato color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reservations-section .btn:hover {
+    background-color: #e5533d;
+}
+.gallery-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.gallery-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Contact Section Styling */
+.contact-section {
+    padding: 60px 20px;
+    background-color: #1c1c1c;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #ddd;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px; /* Limits the form width */
+    margin: 0 auto; /* Centers the form */
+}
+
+.contact-section label {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 5px;
+    align-self: flex-start; /* Aligns labels to the left */
+}
+
+.contact-section input,
+.contact-section textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%; /* Full width */
+    max-width: 300px; /* Limits input field width */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section .btn {
+    padding: 10px 20px;
+    background-color: #ff6347; /* Tomato color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section .btn:hover {
+    background-color: #e5533d;
+}
+/* Footer Styling */
+.footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: #ff6347; /* Tomato color */
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #e5533d;
+}
+#lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
