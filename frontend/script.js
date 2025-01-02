@@ -1,4 +1,3 @@
-// Smooth scroll for navigation links and buttons
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -11,13 +10,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-
-// Form validation for reservation and contact forms
 document.addEventListener('DOMContentLoaded', () => {
     const reservationForm = document.querySelector('#reservations form');
     const contactForm = document.querySelector('#contact form');
-
-    // Reservation form validation
     reservationForm.addEventListener('submit', (event) => {
         event.preventDefault();
         let valid = true;
@@ -50,8 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
             reservationForm.submit();
         }
     });
-
-    // Contact form validation
     contactForm.addEventListener('submit', (event) => {
         event.preventDefault();
         let valid = true;
@@ -77,13 +70,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
-
-// Email validation function
 function validateEmail(email) {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(String(email).toLowerCase());
 }
-// Lightbox functionality
 document.querySelectorAll('.gallery-item img').forEach(img => {
     img.addEventListener('click', function () {
         const lightbox = document.createElement('div');
