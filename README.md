@@ -21,13 +21,29 @@ Welcome to **BergerHut** – a modern and responsive burger restaurant website b
 
 ## ⚙️ Features
 
-- 🍔 **Fully responsive** layout – mobile-first design.
+- ✅ Clean and modern homepage with navigation
 - 📸 **Menu showcase** with high-quality images.
 - 📋 **Interactive menu filters** – View burgers by type (Veg, Chicken, Cheese, etc.).
 - 📞 **Contact form** or contact details section.
-- 📍 **Location map** or address section (optional).
+- 📆 Reservation form to book a table
+- 🌐 Social media icons in the footer
+- 📱 Fully responsive design for mobile and desktop
+- 📍 **Location map** or address section.
 
 ---
 
-## 📂 Folder Structure
+## 🛠️ Getting Started
+
+**Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/burgerhut.git
+   cd burgerhut
+   ```
+
+---
+
+
+## 🎉 Thanks for visiting BurgerHut!
+
+Enjoy the burger experience! 🍔  
 
