@@ -46,7 +46,7 @@ nav ul li a:hover {
 /* Call to action button styling */
 .cta .btn {
     padding: 10px 20px;
-    background-color: #ff6347; /* Tomato color */
+    background-color: #ff6347; 
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -58,14 +58,14 @@ nav ul li a:hover {
 /* Hero section styling */
 .hero {
     display: flex;
-    justify-content: flex-start; /* Aligns content to the left */
+    justify-content: flex-start; 
     align-items: center;
     height: 100vh;
-    background-image: url('bg.jpg'); /* Replace with your image */
+    background-image: url('\assets\images\bg.jpg'); 
     background-size: cover;
     background-position: center;
-    text-align: left; /* Aligns text to the left */
-    padding-left: 20px; /* Adds some padding on the left side */
+    text-align: left; 
+    padding-left: 20px; 
 }
 .hero-text {
     color: #fff;
@@ -94,39 +94,39 @@ nav ul li a:hover {
 }
 /* About Section Styling */
 .about-section {
-    background-color: #f9f9f9; /* Light background for a clean look */
-    padding: 60px 20px; /* Spacing around the content */
-    text-align: center; /* Center-align text */
-    font-family: 'Arial', sans-serif; /* Modern, clean font */
+    background-color: #f9f9f9; 
+    padding: 60px 20px; 
+    text-align: center; 
+    font-family: 'Arial', sans-serif; 
 }
 .about-section h2 {
-    font-size: 36px; /* Larger font for the heading */
-    color: #333; /* Darker color for emphasis */
-    margin-bottom: 20px; /* Space between heading and paragraph */
-    text-transform: uppercase; /* Makes the heading all caps */
-    letter-spacing: 2px; /* Spreads out the letters for style */
+    font-size: 36px; 
+    color: #333; 
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
 }
 .about-section p {
-    font-size: 18px; /* Readable font size */
-    color: #555; /* Lighter color for the body text */
-    line-height: 1.6; /* Increases readability with line spacing */
-    margin-bottom: 20px; /* Space between paragraphs */
+    font-size: 18px; 
+    color: #555; 
+    line-height: 1.6; 
+    margin-bottom: 20px; 
 }
 .about-section p:last-child {
-    margin-bottom: 0; /* Remove bottom margin on the last paragraph */
+    margin-bottom: 0; 
 }
 .about-section a {
     display: inline-block;
-    background-color: #e8491d; /* Brand-specific color (can be changed) */
+    background-color: #e8491d;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     font-size: 16px;
-    border-radius: 5px; /* Rounds the corners of the button */
+    border-radius: 5px; 
     margin-top: 20px;
 }
 .about-section a:hover {
-    background-color: #d7381a; /* Darken button color on hover */
+    background-color: #d7381a; 
 }
 /* Burger Menu Section */
 .menu-section {
@@ -219,26 +219,26 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 500px; /* Limits the form width */
-    margin: 0 auto; /* Centers the form */
+    max-width: 500px; 
+    margin: 0 auto; 
 }
 .reservations-section label {
     font-size: 1rem;
     color: #fff;
     margin-bottom: 5px;
-    align-self: flex-start; /* Aligns labels to the left */
+    align-self: flex-start; 
 }
 .reservations-section input {
     padding: 10px;
     margin-bottom: 15px;
-    width: 100%; /* Full width */
-    max-width: 300px; /* Limits input field width */
+    width: 100%; 
+    max-width: 300px; 
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 .reservations-section .btn {
     padding: 10px 20px;
-    background-color: #ff6347; /* Tomato color */
+    background-color: #ff6347; 
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -296,27 +296,27 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 500px; /* Limits the form width */
-    margin: 0 auto; /* Centers the form */
+    max-width: 500px; 
+    margin: 0 auto; 
 }
 .contact-section label {
     font-size: 1rem;
     color: #fff;
     margin-bottom: 5px;
-    align-self: flex-start; /* Aligns labels to the left */
+    align-self: flex-start; 
 }
 .contact-section input,
 .contact-section textarea {
     padding: 10px;
     margin-bottom: 15px;
-    width: 100%; /* Full width */
-    max-width: 300px; /* Limits input field width */
+    width: 100%; 
+    max-width: 300px; 
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 .contact-section .btn {
     padding: 10px 20px;
-    background-color: #ff6347; /* Tomato color */
+    background-color: #ff6347; 
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -346,7 +346,7 @@ nav ul li a:hover {
     margin-top: 10px;
 }
 .social-links a {
-    color: #ff6347; /* Tomato color */
+    color: #ff6347; 
     margin: 0 10px;
     text-decoration: none;
     transition: color 0.3s ease;
