@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Burger Hut</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="\assets\images\logo.jpg" >
+            <img src="\burgerhut\assets\images\iconlogo.png" >
         </div>
         <nav>
             <ul class="nav-links">
@@ -36,12 +39,16 @@
     </section>
     
     <section id="about" class="about-section">
-        <h2>About Us</h2>
-        <p>At Berger Hut, we believe in the power of good food and the joy it brings. Our journey started with a passion for crafting the perfect burger — one that’s juicy, flavorful, and made with love. Since day one, we’ve been committed to using only the freshest, highest-quality ingredients to create burgers that are both indulgent and satisfying.
-        
-        We’re not just about burgers — we’re about creating memorable dining experiences. Our cozy and welcoming atmosphere is designed to make every visit special, whether you're here for a quick bite, a family gathering, or celebrating a special occasion. We pride ourselves on our friendly service and dedication to making every customer feel like part of the Berger Hut family.
-        
-        Come and discover why our signature burgers have become local favorites, and join us in our mission to bring happiness, one burger at a time!</p>
+        <div class="about-content">
+            <h2>About Burger Hut</h2>
+            <p>Experience the finest gourmet burgers in a cozy and rustic atmosphere. At Berger Hut, we are dedicated to delivering exceptional flavors that will tantalize your taste buds.</p>
+            <p>Our chefs meticulously craft each burger using locally sourced ingredients and unique flavor combinations. From juicy beef patties to mouthwatering vegetarian options, there's something for everyone.</p>
+            <a href="#menu" class="btn">Explore Our Menu</a>
+        </div>
+        <div class="about-image">
+            <img src="\burgerhut\assets\images\about-image.jpg" alt="About Image">
+        </div>
+    
     </section>
     
 
@@ -52,7 +59,7 @@
         <div class="menu-grid">
             <!-- Burger Item 1 -->
             <div class="menu-item">
-                <img src="\assets\images\item1.jpg">
+                <img src="\burgerhut\assets\images\item1.jpg">
                 <h3>Classic Burger</h3>
                 <p>The Classic Burger is usually made with  some breadcrumbs, an egg and seasoning and has to be our favourite grill ingredient .</p>
                 <span class="price">$10</span>
@@ -60,7 +67,7 @@
     
             <!-- Burger Item 2 -->
             <div class="menu-item">
-                <img src="\assets\images\item2.png">
+                <img src="\burgerhut\assets\images\item2.png">
                 <h3>Cheese Lover's Burger</h3>
                 <p>A double-stacked burger with cheddar, Swiss, and American cheeses, topped with caramelized onions.</p>
                 <span class="price">$12</span>
@@ -68,7 +75,7 @@
     
             <!-- Burger Item 3 -->
             <div class="menu-item">
-                <img src="\assets\images\item3.webp">
+                <img src="\burgerhut\assets\images\item3.webp">
                 <h3>Aloo Tikki Burger</h3>
                 <p>This Aloo Tikki Burger is a classic Indian vegetarian burger.Golden crisp potato and peas patties are layered on a toasted bun and topped with cilantro chutney, ketchup, cheese, onion, and tomato. .</p>
                 <span class="price">$14</span>
@@ -76,7 +83,7 @@
     
             <!-- Burger Item 4 -->
             <div class="menu-item">
-                <img src="\assets\images\item4.jpg">
+                <img src="\burgerhut\assets\images\item4.jpg">
                 <h3>Veggie Delight Burger</h3>
                 <p>A healthy choice with a grilled veggie patty, avocado, lettuce, and tomato on a whole-grain bun.</p>
                 <span class="price">$11</span>
@@ -84,7 +91,7 @@
     
             <!-- Burger Item 5 -->
             <div class="menu-item">
-                <img src="\assets\images\item5.jpg" >
+                <img src="\burgerhut\assets\images\item5.jpg" >
                 <h3>Fried Egg Burger</h3>
                 <p>This Fried Egg Burger is loaded with so much flavor! Once the burger is cooked to perfection, it is topped with a slice of cheese, crispy bacon, and a delicious fried egg.</p>
                 <span class="price">$13</span>
@@ -92,14 +99,14 @@
     
             <!-- Burger Item 6 -->
             <div class="menu-item">
-                <img src="\assets\images\item6.jpg">
+                <img src="\burgerhut\assets\images\item6.jpg">
                 <h3>Crispy Chicken Burger</h3>
                 <p>Golden fried chicken breast with lettuce, pickles, and a creamy garlic mayo on a brioche bun.</p>
                 <span class="price">$12</span>
             </div>
             <!-- Burger Item 7 -->
             <div class="menu-item">
-                <img src="\assets\images\item7.jpg">
+                <img src="\burgerhut\assets\images\item7.jpg">
                 <h3>Spicy Jalapeño Burger</h3>
                 <p>A zesty burger topped with fresh jalapeños, pepper jack cheese, and a spicy aioli.</p>
                 <span class="price">$12</span>
@@ -107,7 +114,7 @@
 
             <!-- Burger Item 8 -->
             <div class="menu-item">
-                <img src="\assets\images\item8.jpg">
+                <img src="\burgerhut\assets\images\item8.jpg">
                 <h3>BBQ Pulled Pork Burger</h3>
                 <p>Slow-cooked pulled pork smothered in BBQ sauce, topped with coleslaw on a toasted bun.</p>
                 <span class="price">$13</span>
@@ -115,7 +122,7 @@
 
             <!-- Burger Item 9 -->
             <div class="menu-item">
-                <img src="\assets\images\item9.jpg">
+                <img src="\burgerhut\assets\images\item9.jpg">
                 <h3>Mushroom Swiss Burger</h3>
                 <p>Grilled mushrooms and Swiss cheese on a juicy beef patty with garlic aioli.</p>
                 <span class="price">$12</span>
@@ -123,7 +130,7 @@
 
             <!-- Burger Item 10 -->
             <div class="menu-item">
-                <img src="\assets\images\item10.jpg">
+                <img src="\burgerhut\assets\images\item10.jpg">
                 <h3>Paneer Burger</h3>
                 <p>Paneer burger is a fusion dish. The burger was originally a part of western cuisine. People all over the world embrace it and it is greatly loved by Indians. Paneer burger is made in Indian flavour. </p>
                 <span class="price">$14</span>
@@ -164,16 +171,16 @@
         
         <div class="gallery-grid">
             <div class="gallery-item">
-                <img src="\assets\images\gallery1.jpg">
+                <img src="\burgerhut\assets\images\gallery1.jpg">
             </div>
             <div class="gallery-item">
-                <img src="\assets\images\gallery2.jpg">
+                <img src="\burgerhut\assets\images\gallery2.jpg">
             </div>
             <div class="gallery-item">
-                <img src="\assets\images\gallery3.jpg">
+                <img src="\burgerhut\assets\images\gallery3.jpg">
             </div>
             <div class="gallery-item">
-                <img src="\assets\images\gallery4.jpg">
+                <img src="\burgerhut\assets\images\gallery4.jpg">
             </div>
            
         </div>
@@ -200,14 +207,18 @@
     </section>
     <footer class="footer">
         <div class="footer-content">
-            <p>&copy; 2024 Berger Hut. All Rights Reserved.</p>
-            <div class="social-links">
-                <a href="#" aria-label="Facebook" class="social-icon">Facebook</a>
-                <a href="#" aria-label="Twitter" class="social-icon">Twitter</a>
-                <a href="#" aria-label="Instagram" class="social-icon">Instagram</a>
+            <img src="\burgerhut\assets\images\iconlogo.png" alt="BUBGREER Logo" class="footer-logo" />
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
+            <p class="copyright">
+                © 2023 Berger Hut. All rights reserved.
+            </p>
         </div>
     </footer>
+
     <script src="script.js"></script>
 
 </body>
