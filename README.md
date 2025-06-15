@@ -1,17 +1,17 @@
-# 🍔 BergerHut
+#  BergerHut
 
 Welcome to **BergerHut** – a modern and responsive burger restaurant website built using HTML, CSS, and JavaScript. This project showcases a sleek UI with interactive features to offer users an engaging menu-browsing experience.
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
 [Visit BergerHut Website](#)  
 *(https://sushan766.github.io/burgerhut/)*
 
 ---
 
-## 📁 Tech Stack
+##  Tech Stack
 
 - **HTML** – For semantic structure and content layout.
 - **CSS** – For modern styling, animations, and responsive design.
@@ -19,20 +19,20 @@ Welcome to **BergerHut** – a modern and responsive burger restaurant website b
 
 ---
 
-## ⚙️ Features
+##  Features
 
-- ✅ Clean and modern homepage with navigation
-- 📸 **Menu showcase** with high-quality images.
-- 📋 **Interactive menu filters** – View burgers by type (Veg, Chicken, Cheese, etc.).
-- 📞 **Contact form** or contact details section.
-- 📆 Reservation form to book a table
-- 🌐 Social media icons in the footer
-- 📱 Fully responsive design for mobile and desktop
-- 📍 **Location map** or address section.
+-  Clean and modern homepage with navigation
+-  **Menu showcase** with high-quality images.
+-  **Interactive menu filters** – View burgers by type (Veg, Chicken, Cheese, etc.).
+-  **Contact form** or contact details section.
+-  Reservation form to book a table
+-  Social media icons in the footer
+-  Fully responsive design for mobile and desktop
+-  **Location map** or address section.
 
 ---
 
-## 🛠️ Getting Started
+##  Getting Started
 
 **Clone the repository**:
    ```bash
@@ -43,7 +43,7 @@ Welcome to **BergerHut** – a modern and responsive burger restaurant website b
 ---
 
 
-## 🎉 Thanks for visiting BurgerHut!
+##  Thanks for visiting BurgerHut!
 
-Enjoy the burger experience! 🍔  
+Enjoy the burger experience! 
 
