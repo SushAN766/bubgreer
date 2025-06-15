@@ -1,4 +1,4 @@
-#  BergerHut
+#  BergerHut-Website
 
 Welcome to **BergerHut** – a modern and responsive burger restaurant website built using HTML, CSS, and JavaScript. This project showcases a sleek UI with interactive features to offer users an engaging menu-browsing experience.
 
